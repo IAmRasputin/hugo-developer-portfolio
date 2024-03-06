@@ -62,7 +62,7 @@
         <li><a href="https://github.com/{{ .Site.Data.homepage.social.github }}"> <img
                     class="contain" src="https://cdn.svgporn.com/logos/github-icon.svg" alt="GitHub" loading="lazy"> </a></li>
         {{ end }} {{ if .Site.Data.homepage.social.gitlab }}
-        <li><a href="https://gitlab.com/{{ .Site.Data.homepage.social.gitlab }}"> <img
+        <li><a href="{{ .Site.Data.homepage.social.gitlab }}"> <img
                     class="contain" src="https://cdn.svgporn.com/logos/gitlab.svg" alt="GitLab" loading="lazy"></a></li>
         {{ end }} {{ if .Site.Data.homepage.social.facebook }}
         <li><a href="https://www.facebook.com/{{ .Site.Data.homepage.social.facebook }}"> <img
